@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color:rgb(6, 41, 79) ;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background-color: rgb(73, 116, 161);
+}
+
+.logo{
+    margin-right: 850px;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    position: relative;
+}
+h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing:none;
+    font-weight: 500;
+    margin-right: 90%;
+    margin-top: 15px;
+    position: absolute;
+    font-size:2vw;
+    animation: slide 2.5s forwards;
+    display: none;
+}
+
+@keyframes slide {
+    from{
+     margin-right: 90%;
+     opacity: -1;
+     
+    }
+    to{
+     margin-right: 79%;
+     opacity: 1;
+     
+    }
+     
+ }
+
+ul{
+    /* height: 100%; */
+    /* width: 100%; */
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    margin-right: 80px;
+    justify-content:flex-end;
+    gap: 30px;
+    list-style: none;
+    padding: 20px 5px;
+    font-size: 2vw;
+    font-weight: 700;
+    user-select: none;
+    color: #fff;
+    
+}
+
+li:hover{
+    text-decoration: underline;
+    transition: 0.5s ;
+    color: black;
+    cursor: pointer;
+}
+
+li{
+   
+    margin-top: 15px;
+}
+.planets{
+    height: 48px;
+    width: 48px;
+}
+
+
+.div-1{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color:rgb(241, 247, 249);
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 4px 2px 2px rgb(38, 37, 37);
+    border: 1px solid black;
+    transition: 0.6s;
+}
+
+.div-2{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color:rgb(241, 247, 249);
+    user-select: none;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    box-shadow: 4px 2px 2px rgb(38, 37, 37);
+    border: 1px solid black;
+    transition: 0.5s;
+} 
+
+.div-1:hover{
+    background-color:  rgb(44, 104, 169);
+    border-radius: 30%;
+    transition: 0.5s;
+}
+
+.div-2:hover{
+    /* background-color:  rgb(73, 116, 161); */
+    border-radius: 30%;
+    transition: 0.5s;
+}
+
+
+.clrdots{
+    margin-left: 1450px; 
+    margin-top: -80px;
+    display: block;
+    position: absolute;
+    
+}
+
+main{
+    height: 90vh;
+    width: 100%;
+}
+
+.firstsection{
+ 
+    display: flex;
+    justify-content: space-around;
+    user-select: none;
+}
+#dev{
+    margin-right: 100px;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    /* background-color: rgb(28, 58, 91) ; */
+    background-color: rgb(6, 41, 79) ;
+    user-select: none;
+}
+.leftsection > div{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: "Platypi", serif;
+}
+.leftsection{
+    font-family: "Dancing Script", cursive;
+   margin-left: 150px;
+    margin-top: 100px;
+    font-size: 2.5vw;
+    font-weight: bold;
+    width: 650px;
+    font-family: "Platypi", serif;
+}
+span{
+    color:#ffffff;
+}
+h6{
+   padding: 10px 5px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.down{
+    height: 40px;
+    width: 40px;
+    margin-left: -2px;
+    margin-top: -10px;
+    position: absolute;
+}
+.DR{
+    margin-top: 20px;
+    height: 42px;
+    width: 215px;
+    background-color: rgb(73, 116, 161);
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#sec2{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 900px;
+   background-color: rgb(73, 116, 161);
+    /* padding: 20px 15px; */
+   margin-left: 280px;
+   border-radius: 25px;
+   box-shadow: 5px 5px 4px rgb(15, 13, 13);
+} 
+
+
+.profile{
+    height: 400px;
+    width: 400px;
+    border-radius: 30%;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+hr{
+    margin-left: 20px;
+    width: 2px;
+    background-color: black;
+    outline: none;
+    border: 1px solid black;
+    height: 90%;
+    margin-top: 20px;
+}
+.aboutme{
+    font-family: "Dancing Script", cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.line{
+    transform: rotate(90deg);
+    margin-left: 750px;
+    height: 200%;
+    position: absolute;
+    margin-top: -770px;
+    /* width: 5px; */
+}
+
+.right-container{
+    font-size: 1.5vw;
+    padding: 20px 15px;
+    margin-top: 30px;
+    font-family: "Platypi", serif;
+}
+
+#sec3{
+    height: 200vh;
+    width: 100%;
+}
+
+.project{
+    font-family: "Dancing Script", cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.bsc{
+    font-family: "Platypi", serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+h3{
+    color: black;
+    font-size: 3vw;
+}
+.diet{
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    width: 98%;
+}
+.street{
+    /* color: rgb(255, 255, 255); */
+    font-size: 1.5vw;
+}
+.smart{
+    margin-top: 15px;
+}
+ol{
+    margin-left: 40px;
+   user-select: none;
+}
+
+#sec4{
+    height: 145vh;
+    width: 100%;
+}
+
+.contactme{
+    font-family: "Dancing Script", cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.contact{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(73, 116, 161);
+    margin-left: 350px;
+    margin-top: 100px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px rgb(15, 13, 13);
+}
+.contact h3{
+    font-size: 2vw; 
+    display: inline-flex;
+}
+.contact p{
+    position: absolute;
+    margin-left: 50px;
+}
+.contact i{
+    margin-top: 3px;
+}
+.contact div{
+    position: absolute;
+    margin-left: 180px;
+}
+
+.contact .address{
+    position: absolute;
+    margin-left: 180px;
+    width: 600px;
+    font-size: 2vw;
+}
+
+
+.form{
+    /* display: block; */
+    height: 300px;
+    width: 700px;
+    /* background-color: rgb(73, 116, 161); */
+    margin-left: 350px;
+    margin-top: 20px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    /* box-shadow: 5px 5px 4px rgb(15, 13, 13); */
+}
+
+.form .title{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.form input{
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    /* margin-top: 10px; */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 15px;
+    font-size: 1.2vw;
+    margin-left: 130px;
+}
+
+.form button{
+    border-radius: 10px;
+    margin-left: 2px;
+    height: 40px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 310px;
+    background-color: rgb(73, 116, 161);
+    font-size: 0.9vw;
+    font-weight: 900;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    height: 20vh;
+    width: 100%;
+}
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(73, 116, 161);
+}
+
+.foot-icon{
+    margin-left: 490px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.foot-icon .insta{
+    height: 80px;
+    width: 80px;
+    margin-left: 155px;
+    margin-top: -20px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+    
+}
+.foot-icon .fb{
+    height: 80px;
+    width: 80px;
+    margin-left: -10px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+    
+}
+.foot-icon .link{
+    height: 80px;
+    width: 80px;
+    margin-left: -10px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+    
+}
